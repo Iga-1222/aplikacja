@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cognitive Science Dictionary</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+        <script src=https://pixabay.com/pl></script>
+        <script src="https://kit.fontawesome.com/e0c13a4975.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/e0c13a4975.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <section class="header">
+           <nav>
+            <a href="index.html"><img src="https://cdn.pixabay.com/photo/2018/09/18/11/19/artificial-intelligence-3685928__480.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times-circle-o" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">SIGN IN</a></li>
+                        <li><a href="">LOG IN</a></li>
+                        <li><a href="">DICTIONARY</a></li>
+                        <li><a href="">SETTINGS</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+        <div class= text-box>
+            <h1>Cognitive Science Dictionary</h1>
+            <p>If you are curious about the meaning of cognitive words,<br>you have come to the right place!</p>
+            <a href="" class="hero-btn">Visit Us To Know More</a>
+        </div>
+        </section>
+
+        <!-----Dictionary-->
+        <section class="dictionary">
+            <h1>Dictionary:</h1>
+                <div class="row">
+                    <div class="dictionary-col">
+                        <h3>A</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="dictionary-col">
+                        <h3>B</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="dictionary-col">
+                        <h3>C</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+        </section>
+
+<!------JavaScript for Toggle Menu--------->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+    </html>
